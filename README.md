@@ -6,7 +6,16 @@ This project demonstrates a complete production-grade GitOps platform for deploy
 
 The platform separates infrastructure provisioning and application deployment into independent repositories, implementing proper GitOps architecture used in real-world production environments.
 
-This repository serves as the parent portfolio repository linking both Infrastructure and Application GitOps repositories.
+## Related Repositories
+
+This GitOps platform consists of separate repositories for infrastructure and application deployment:
+
+| Repository | Description |
+|----------|-------------|
+| [vprofile-gitops-iac](https://github.com/josephmj0303/vprofile-gitops-iac) | Terraform infrastructure provisioning for AWS EKS |
+| [vprofile-gitops-app-deploy](https://github.com/josephmj0303/vprofile-gitops-app-deploy) | CI/CD pipeline and Kubernetes deployment using GitHub Actions and Helm |
+
+These repositories work together to implement a complete GitOps deployment platform.
 
 ---
 
