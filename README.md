@@ -52,7 +52,7 @@ Developer
 ---
 ## 🔁 Deployment Workflow
 
-![Deployment Flow](architecture/deployment-flow.png)
+![Deployment Flow](aws-resource-diagram.png)
 
 ---
 
