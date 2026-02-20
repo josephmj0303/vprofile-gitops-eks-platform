@@ -20,6 +20,9 @@ These repositories work together to implement a complete GitOps deployment platf
 ---
 
 ## GitOps Architecture
+
+![GitOps Architecture](architecture/gitops-architecture.png)
+
 ```
 Developer
    │
@@ -46,6 +49,11 @@ Developer
                   └── Helm deploy to EKS
 
 ```
+---
+## 🔁 Deployment Workflow
+
+![Deployment Flow](architecture/deployment-flow.png)
+
 ---
 
 ## Repository Structure
@@ -113,6 +121,25 @@ Technology Used:
 - SonarCloud
 - Maven
 
+---
+
+## Repository Layout
+```
+vprofile-gitops-eks-platform/
+│
+├── README.md
+│
+├── architecture/
+│     ├── gitops-architecture.png        ← Dev → Repo → CI/CD
+│     └── aws-resource-diagram.png       ← AWS infra layout
+│
+└── screenshots/
+      ├── cache-miss.png
+      ├── app-home.png
+      ├── app-login.png
+      ├── cache-hit.png
+      └── github-actions-success.png
+```
 ---
 
 ## Technology Stack
@@ -224,6 +251,21 @@ Application components:
 - Messaging: RabbitMQ
 
 Cache improves performance by reducing database load.
+
+---
+## 📸 Application Screenshots
+
+### Home Page
+![Home](screenshots/app-home.png)
+
+### Login Page
+![Login](screenshots/app-login.png)
+
+### Cache Hit
+![Cache Hit](screenshots/cache-hit.png)
+
+### Cache Miss
+![Cache Miss](screenshots/cache-miss.png)
 
 ---
 
