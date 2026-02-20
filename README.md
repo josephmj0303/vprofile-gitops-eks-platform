@@ -26,36 +26,6 @@ These repositories work together to implement a complete GitOps deployment platf
 
 ![GitOps Architecture](architecture/gitops-architecture.png)
 
-```
-Developer
-   │
-   ├── Push Terraform → vprofile-gitops-iac repo
-   │       │
-   │       └── GitHub Actions
-   │              ├── terraform init
-   │              ├── terraform plan
-   │              └── terraform apply
-   │                       │
-   │                       └── Creates:
-   │                             - VPC
-   │                             - EKS cluster
-   │                             - ECR
-   │                             - Ingress controller
-   │
-   └── Push Application → vprofile-gitops-app-deploy repo
-           │
-           └── GitHub Actions pipeline
-                  ├── Maven Test
-                  ├── SonarCloud scan
-                  ├── Docker build
-                  ├── Push to ECR
-                  └── Helm deploy to EKS
-
-```
----
-## 🔁 Deployment Workflow
-
-![Deployment Flow](architecture/aws-resource-diagram.png)
 
 ---
 
@@ -139,7 +109,7 @@ vprofile-gitops-eks-platform/
       ├── app-home.png
       ├── app-login.png
       ├── cache-hit.png
-      └── github-actions-success.png
+      └── pipeline-success.png
 ```
 ---
 
@@ -197,6 +167,11 @@ This platform implements core GitOps principles:
 
 ---
 
+## 🔁 Deployment Workflow
+
+![Deployment Flow](architecture/aws-resource-diagram.png)
+
+---
 ## CI/CD Workflow
 
 Infrastructure Deployment Workflow:
@@ -268,8 +243,8 @@ Cache improves performance by reducing database load.
 ### Cache Miss
 ![Cache Miss](screenshots/cache_miss.png)
 
-### Success Deployment
-![Success Deployment](screenshots/github-actions-success.png)
+### Pipeline Success
+![Pipeline Success](screenshots/github-actions-success.png)
 
 ---
 
