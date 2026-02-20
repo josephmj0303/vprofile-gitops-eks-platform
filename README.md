@@ -52,7 +52,7 @@ Developer
 ---
 ## 🔁 Deployment Workflow
 
-![Deployment Flow](aws-resource-diagram.png)
+![Deployment Flow](architecture/aws-resource-diagram.png)
 
 ---
 
@@ -256,19 +256,19 @@ Cache improves performance by reducing database load.
 ## 📸 Application Screenshots
 
 ### Home Page
-![Home](screenshots/app-home.png)
+![Home](screenshots/app_home.png)
 
 ### Login Page
-![Login](screenshots/app-login.png)
+![Login](screenshots/app_login.png)
 
 ### Cache Hit
-![Cache Hit](screenshots/cache-hit.png)
+![Cache Hit](screenshots/cache_hit.png)
 
 ### Cache Miss
-![Cache Miss](screenshots/cache-miss.png)
+![Cache Miss](screenshots/cache_miss.png)
 
 ### Success Deployment
-![Cache Miss](screenshots/github-actions-success.png)
+![Success Deployment](screenshots/github-actions-success.png)
 
 ---
 
