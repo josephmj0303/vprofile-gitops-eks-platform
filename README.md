@@ -267,6 +267,9 @@ Cache improves performance by reducing database load.
 ### Cache Miss
 ![Cache Miss](screenshots/cache-miss.png)
 
+### Success Deployment
+![Cache Miss](screenshots/github-actions-success.png)
+
 ---
 
 ## Deployment Strategy
