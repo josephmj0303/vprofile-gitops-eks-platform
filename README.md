@@ -67,9 +67,8 @@ This platform consists of two main repositories:
 
 ### Infrastructure Repository
 
-Repository:
-
-https://github.com/josephmj0303/vprofile-gitops-iac
+### 🔗 Infrastructure
+→ https://github.com/josephmj0303/vprofile-gitops-iac
 
 Purpose:
 
@@ -98,9 +97,8 @@ Technology Used:
 
 ### Application Deployment Repository
 
-Repository:
-
-https://github.com/josephmj0303/vprofile-gitops-app-deploy
+### 🔗 Application Deploy
+→ https://github.com/josephmj0303/vprofile-gitops-app-deploy
 
 
 Purpose:
