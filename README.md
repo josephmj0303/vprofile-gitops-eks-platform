@@ -299,7 +299,7 @@ Planned enhancements:
 
 ---
 
-##  Skills Demonstrated
+## 📌 Skills Demonstrated
 
 This project demonstrates expertise in:
 
