@@ -338,6 +338,8 @@ This project demonstrates a complete production-grade GitOps deployment pipeline
 
 ---
 
+## 👨‍💻 Author
+
 Joseph M J
 
 DevOps Engineer Portfolio Project
